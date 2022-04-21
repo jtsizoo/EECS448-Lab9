@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+#Container {
+    margin: 0 auto;
+    background-color: rgb(99, 133, 227);
+    text-align: center;
+    padding: 3.75em;
+    width: 25%;
+    border: 2px solid black;
+}
+
+#num {
+    width: 70px;
+}
+
+table {
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 6px solid darkblue;
+    color: darkblue;
+    padding: 1em;
+}
+
+td,tr {
+    padding: .25em;
+}

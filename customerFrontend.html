@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <form action = "customerBackend.php" method="post" name="form" onsubmit="return validate()">
+        <div id ="Container">
+            <p>Select each item that you want to purchase: </p>
+            Table - $120<input name = "Item1" type="number" id="num" required><br><br>
+            Chair - $50<input name = "Item2" type="number" id="num" required><br><br>
+            Couch - $200<input name = "Item3" type="number" id="num" required><br><br>
+            <label name="Username">Username: </label>
+            <input type = "email" name="Username" required><br>
+            <br><label name="Password" >Password: </label>
+            <input type = "text" name="Password" required><br>
+            <br><label name="Ship">Shipping Method: </label><br>
+            <input type = "radio" name="Ship" id="s1" value="Free - 7 day">Free - 7 day<br>
+            <input type = "radio" name="Ship" id="s2" value="$50.00 - overnight">$50.00 - Overnight<br>
+            <input type = "radio" name="Ship" id="s3" value="$5.00 - three day">$5.00 - Three day<br><br>
+            <input type= "submit" value = "Submit">
+            <button type="button" onclick="reset()">Reset
+        </div>
+    </form>
+    <script src="formChecker.js"></script>
+</body>
+</html>
